@@ -3,9 +3,7 @@
   <p>{{ startInstant }}</p>
   <ul>
     <div class="row">
-      <div class="col" v-for="pony in raceModel.ponies" :key="pony.id">
-        <Pony :ponyModel="pony" />
-      </div>
+      <div class="col" v-for="pony in raceModel.ponies" :key="pony.id"><Pony :ponyModel="pony" @ponySelected="ponySelected($event)" /></div>
     </div>
   </ul>
 </template>
@@ -35,6 +33,11 @@ export default defineComponent({
     return {
       startInstant
     };
+  },
+  methods: {
+    ponySelected(event: Proxy) {
+      console.log(event.pony);
+    }
   }
 });
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <figure @click="clicked(ponyModel.id)">
+  <figure @click="clicked(ponyModel)">
     <img :src="ponyImageUrl" :alt="ponyModel.name" />
     <figcaption>{{ ponyModel.name }}</figcaption>
   </figure>
@@ -29,8 +29,8 @@ export default defineComponent({
     };
   },
   methods: {
-    clicked(ponyId: number) {
-      this.$emit('ponySelected', { ponyId });
+    clicked(pony: PonyModel) {
+      this.$emit('ponySelected', { pony });
     }
   }
 });
