@@ -1,1 +1,1 @@
-{"pack":"14","id":0,"title":"Getting started","specs":[{"name":"tests/e2e/specs/home.spec.js","hash":"eb8e4e12e8aade6340d20a48e824edc185af371a"},{"name":"tests/unit/App.spec.ts","hash":"3dbba40d658f10c31bc4ee5da7c55cb7ee90f62c"}]} 
+{"pack":"14","id":2,"title":"Templates","specs":[{"name":"tests/e2e/specs/home.spec.js","hash":"9b9ce0a1988b5f7c82309ac7b8d72dca4c4d0490"},{"name":"tests/unit/App.spec.ts","hash":"d7c50653a84878cdeba88646f62e629127a8ae39"},{"name":"tests/unit/components/Navbar.spec.ts","hash":"21894e33a6ef7acf4ba9bae1758337c06db452a7"}]}
