@@ -1,5 +1,6 @@
 import { mount } from '@vue/test-utils';
 import Race from '@/components/Race.vue';
+import Pony from '@/components/Pony.vue';
 import { RaceModel } from '@/models/RaceModel';
 
 describe('Race.vue', () => {
@@ -31,13 +32,8 @@ describe('Race.vue', () => {
     const raceStart = wrapper.get('p');
     // The p element should contain the race start instant transformed by the fromNow function
     expect(raceStart.text()).toContain('ago');
-    const ponies = wrapper.findAll('li');
-    // You should have one li elements per pony
+    const ponies = wrapper.findAllComponents(Pony);
+    // You should have one Pony component per pony
     expect(ponies).toHaveLength(5);
-    expect(ponies[0].text()).toContain('Gentle Pie');
-    expect(ponies[1].text()).toContain('Big Soda');
-    expect(ponies[2].text()).toContain('Gentle Bottle');
-    expect(ponies[3].text()).toContain('Superb Whiskey');
-    expect(ponies[4].text()).toContain('Fast Rainbow');
   });
 });
