@@ -8,31 +8,17 @@
   </ul>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import { RaceModel } from '@/models/RaceModel';
-import { defineComponent, PropType, computed } from 'vue';
+import { computed } from 'vue';
 import fromNow from '@/utils/FromNow';
 import Pony from '@/components/Pony.vue';
 
-export default defineComponent({
-  components: {
-    Pony
-  },
-  props: {
-    raceModel: {
-      type: Object as PropType<RaceModel>,
-      required: true
-    }
-  },
+const props = defineProps<{
+  raceModel: RaceModel;
+}>();
 
-  setup(props) {
-    const startInstant = computed(() => {
-      return fromNow(props.raceModel.startInstant);
-    });
-
-    return {
-      startInstant
-    };
-  }
+const startInstant = computed(() => {
+  return fromNow(props.raceModel.startInstant);
 });
 </script>

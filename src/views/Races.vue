@@ -5,29 +5,16 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref, onMounted } from 'vue';
+<script setup lang="ts">
+import { ref, onMounted } from 'vue';
 import { RaceModel } from '@/models/RaceModel';
 import Race from '@/components/Race.vue';
 import { useRaceService } from '@/composables/RaceService';
 
-export default defineComponent({
-  name: 'Races',
-  components: {
-    Race
-  },
+const races = ref<Array<RaceModel> | null>(null);
+const raceService = useRaceService();
 
-  setup() {
-    const races = ref<Array<RaceModel> | null>(null);
-    const raceService = useRaceService();
-
-    onMounted(async () => {
-      races.value = await raceService.list();
-    });
-
-    return {
-      races
-    };
-  }
+onMounted(async () => {
+  races.value = await raceService.list();
 });
 </script>

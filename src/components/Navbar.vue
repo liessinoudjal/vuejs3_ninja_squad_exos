@@ -16,22 +16,12 @@
   </nav>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from 'vue';
+<script setup lang="ts">
+import { ref } from 'vue';
 
-export default defineComponent({
-  name: 'NavBar',
+const navbarCollapsed = ref(true);
 
-  setup() {
-    const navbarCollapsed = ref(true);
-
-    function toggleNavbar() {
-      navbarCollapsed.value = !navbarCollapsed.value;
-    }
-    return {
-      navbarCollapsed,
-      toggleNavbar
-    };
-  }
-});
+function toggleNavbar() {
+  navbarCollapsed.value = !navbarCollapsed.value;
+}
 </script>

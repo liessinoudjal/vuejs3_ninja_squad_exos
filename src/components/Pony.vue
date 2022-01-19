@@ -5,35 +5,25 @@
   </figure>
 </template>
 
-<script lang="ts">
-import { defineComponent, PropType, computed } from 'vue';
+<script setup lang="ts">
+import { computed } from 'vue';
 import { PonyModel } from '@/models/PonyModel';
 
-export default defineComponent({
-  name: 'Pony',
-  props: {
-    ponyModel: {
-      type: Object as PropType<PonyModel>,
-      required: true
-    }
-  },
-  emits: ['ponySelected'],
-  setup(props) {
-    const ponyImageUrl = computed(() => {
-      const color = props.ponyModel.color.toLowerCase();
-      return `/images/pony-${color}.gif`;
-    });
+const props = defineProps<{
+  ponyModel: PonyModel;
+}>();
+const emits = defineEmits<{
+  (e: 'ponySelected'): void;
+}>();
 
-    return {
-      ponyImageUrl
-    };
-  },
-  methods: {
-    clicked(pony: PonyModel) {
-      this.$emit('ponySelected', { pony });
-    }
-  }
+const ponyImageUrl = computed(() => {
+  const color = props.ponyModel.color.toLowerCase();
+  return `/images/pony-${color}.gif`;
 });
+
+function clicked(pony: PonyModel) {
+  emits('ponySelected', { pony });
+}
 </script>
 
 <style scoped>

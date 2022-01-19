@@ -20,6 +20,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'vue/attributes-order': 'off',
     'vue/attribute-hyphenation': ['error', 'never'],
+    'vue/component-api-style': ['error', ['script-setup']],
     'vue/multi-word-component-names': 'off',
     'vue/v-on-event-hyphenation': 'off'
   },
