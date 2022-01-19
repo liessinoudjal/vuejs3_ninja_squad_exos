@@ -27,6 +27,10 @@ describe('Race.vue', () => {
     const raceName = wrapper.get('h2');
     // The h2 element should contain the race name
     expect(raceName.text()).toContain('Paris');
+    // You need a p element for the race start instant
+    const raceStart = wrapper.get('p');
+    // The p element should contain the race start instant transformed by the fromNow function
+    expect(raceStart.text()).toContain('ago');
     const ponies = wrapper.findAll('li');
     // You should have one li elements per pony
     expect(ponies).toHaveLength(5);
