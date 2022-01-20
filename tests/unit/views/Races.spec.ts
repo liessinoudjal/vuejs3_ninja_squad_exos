@@ -22,5 +22,27 @@ describe('Races.vue', () => {
     const raceComponents = wrapper.findAllComponents(Race);
     // You should have a `Race` component per race in your template
     expect(raceComponents).toHaveLength(2);
+
+    // No alert should be displayed
+    const alert = wrapper.find('div.alert');
+    expect(alert.exists()).toBe(false);
+  });
+
+  test('should display a closable alert in case of error', async () => {
+    mockRaceService.list.mockRejectedValue(new Error('oops'));
+    const wrapper = mount(Races);
+    await flushPromises();
+
+    const raceComponents = wrapper.findAllComponents(Race);
+    // You should have no `Race` component in your template
+    expect(raceComponents).toHaveLength(0);
+
+    const alert = wrapper.get('div.alert');
+    // You should have an alert displayed
+    expect(alert.text()).toContain('An error occurred while loading');
+
+    await alert.find('button').trigger('click');
+    // The alert should be closed when the button is clicked
+    expect(wrapper.find('div.alert').exists()).toBe(false);
   });
 });

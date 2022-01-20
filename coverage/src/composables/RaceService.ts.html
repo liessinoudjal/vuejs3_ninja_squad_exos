@@ -25,7 +25,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>9/9</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
@@ -83,56 +83,20 @@
 <a name='L18'></a><a href='#L18'>18</a>
 <a name='L19'></a><a href='#L19'>19</a>
 <a name='L20'></a><a href='#L20'>20</a>
-<a name='L21'></a><a href='#L21'>21</a>
-<a name='L22'></a><a href='#L22'>22</a>
-<a name='L23'></a><a href='#L23'>23</a>
-<a name='L24'></a><a href='#L24'>24</a>
-<a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a>
-<a name='L27'></a><a href='#L27'>27</a>
-<a name='L28'></a><a href='#L28'>28</a>
-<a name='L29'></a><a href='#L29'>29</a>
-<a name='L30'></a><a href='#L30'>30</a>
-<a name='L31'></a><a href='#L31'>31</a>
-<a name='L32'></a><a href='#L32'>32</a>
-<a name='L33'></a><a href='#L33'>33</a>
-<a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a>
-<a name='L38'></a><a href='#L38'>38</a>
-<a name='L39'></a><a href='#L39'>39</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L21'></a><a href='#L21'>21</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
@@ -140,39 +104,21 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { RaceModel } from '@/models/RaceModel';
+&nbsp;
+import axios from 'axios';
+&nbsp;
 export function useRaceService() {
-  const races: Array&lt;RaceModel&gt; = [
-    {
-      id: 12,
-      name: 'Paris',
-      ponies: [
-        { id: 1, name: 'Gentle Pie', color: 'YELLOW' },
-        { id: 2, name: 'Big Soda', color: 'ORANGE' },
-        { id: 3, name: 'Gentle Bottle', color: 'PURPLE' },
-        { id: 4, name: 'Superb Whiskey', color: 'GREEN' },
-        { id: 5, name: 'Fast Rainbow', color: 'BLUE' }
-      ],
-      startInstant: '2020-02-18T08:02:00Z'
-    },
-    {
-      id: 13,
-      name: 'Tokyo',
-      ponies: [
-        { id: 6, name: 'Fast Rainbow', color: 'BLUE' },
-        { id: 7, name: 'Gentle Castle', color: 'GREEN' },
-        { id: 8, name: 'Awesome Rock', color: 'PURPLE' },
-        { id: 9, name: 'Little Rainbow', color: 'YELLOW' },
-        { id: 10, name: 'Great Soda', color: 'ORANGE' }
-      ],
-      startInstant: '2020-02-18T08:03:00Z'
-    }
-  ];
-  function list(): Promise&lt;Array&lt;RaceModel&gt;&gt; {
-    // TODO return a Promise of an array of 2 races
-    return new Promise(resolve =&gt; {
-      resolve(races);
-    });
+  const apiUrl = 'https://ponyracer.ninja-squad.com';
+&nbsp;
+  async function list(): Promise&lt;Array&lt;RaceModel&gt;&gt; {
+    const racesUrl = `${apiUrl}/api/races`;
+    const params = {
+      status: 'PENDING'
+    };
+    const response = await axios.get&lt;Array&lt;RaceModel&gt;&gt;(racesUrl, { params });
+    return response.data;
   }
+&nbsp;
   return {
     list
   };
@@ -184,7 +130,7 @@ export function useRaceService() {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Wed Jan 19 2022 22:17:08 GMT+0100 (heure normale d’Europe centrale)
+                at Thu Jan 20 2022 11:19:48 GMT+0100 (heure normale d’Europe centrale)
             </div>
         <script src="../../prettify.js"></script>
         <script>
