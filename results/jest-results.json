@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 7,
-  "numPassedTests": 13,
+  "numPassedTestSuites": 8,
+  "numPassedTests": 16,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 7,
-  "numTotalTests": 13,
+  "numTotalTestSuites": 8,
+  "numTotalTests": 16,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1642685857725,
+  "startTime": 1642689704521,
   "success": false,
   "testResults": [
     {
@@ -37,10 +37,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642685866430,
-        "runtime": 5841,
-        "slow": true,
-        "start": 1642685860589
+        "end": 1642689711258,
+        "runtime": 4538,
+        "slow": false,
+        "start": 1642689706720
       },
       "skipped": false,
       "snapshot": {
@@ -58,7 +58,7 @@
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 50,
+          "duration": 43,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Alert.vue should display the alert content",
@@ -72,7 +72,7 @@
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 21,
+          "duration": 20,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Alert.vue should have the correct CSS classes",
@@ -86,7 +86,7 @@
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 17,
+          "duration": 10,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Alert.vue should be dismissible",
@@ -102,15 +102,85 @@
     {
       "leaks": false,
       "numFailingTests": 0,
-      "numPassingTests": 4,
+      "numPassingTests": 3,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642685869656,
-        "runtime": 3133,
+        "end": 1642689712323,
+        "runtime": 966,
         "slow": false,
-        "start": 1642685866523
+        "start": 1642689711357
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\components\\Navbar.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Navbar.vue"
+          ],
+          "duration": 21,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Navbar.vue should toggle the class on click",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should toggle the class on click"
+        },
+        {
+          "ancestorTitles": [
+            "Navbar.vue"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Navbar.vue should display a link to the home page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display a link to the home page"
+        },
+        {
+          "ancestorTitles": [
+            "Navbar.vue"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Navbar.vue should display a link to the races page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display a link to the races page"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1642689713887,
+        "runtime": 1466,
+        "slow": false,
+        "start": 1642689712421
       },
       "skipped": false,
       "snapshot": {
@@ -128,21 +198,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 66,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "App.vue renders a title",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "renders a title"
-        },
-        {
-          "ancestorTitles": [
-            "App.vue"
-          ],
-          "duration": 10,
+          "duration": 22,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "App.vue renders the navbar",
@@ -156,29 +212,29 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 27,
+          "duration": 40,
           "failureDetails": [],
           "failureMessages": [],
-          "fullName": "App.vue renders the races list inside a Suspense component",
+          "fullName": "App.vue renders the router view inside a Suspense component",
           "invocations": 1,
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "renders the races list inside a Suspense component"
+          "title": "renders the router view inside a Suspense component"
         },
         {
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 19,
+          "duration": 14,
           "failureDetails": [],
           "failureMessages": [],
-          "fullName": "App.vue renders an error if races list does not load",
+          "fullName": "App.vue renders an error if router view does not load",
           "invocations": 1,
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "renders an error if races list does not load"
+          "title": "renders an error if router view does not load"
         }
       ],
       "failureMessage": null
@@ -191,10 +247,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642685870663,
-        "runtime": 871,
+        "end": 1642689714747,
+        "runtime": 753,
         "slow": false,
-        "start": 1642685869792
+        "start": 1642689713994
       },
       "skipped": false,
       "snapshot": {
@@ -212,7 +268,7 @@
           "ancestorTitles": [
             "Pony.vue"
           ],
-          "duration": 22,
+          "duration": 13,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Pony.vue should display an image and a legend",
@@ -226,7 +282,7 @@
           "ancestorTitles": [
             "Pony.vue"
           ],
-          "duration": 6,
+          "duration": 4,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Pony.vue should emit an event on click",
@@ -242,15 +298,71 @@
     {
       "leaks": false,
       "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1642689715503,
+        "runtime": 680,
+        "slow": false,
+        "start": 1642689714823
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\views\\Home.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Home.vue"
+          ],
+          "duration": 14,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Home.vue should display every race name in a title",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display every race name in a title"
+        },
+        {
+          "ancestorTitles": [
+            "Home.vue"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Home.vue display a link to go the races",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "display a link to go the races"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
       "numPassingTests": 1,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642685873161,
-        "runtime": 2395,
+        "end": 1642689716995,
+        "runtime": 1430,
         "slow": false,
-        "start": 1642685870766
+        "start": 1642689715565
       },
       "skipped": false,
       "snapshot": {
@@ -268,7 +380,7 @@
           "ancestorTitles": [
             "Races.vue"
           ],
-          "duration": 48,
+          "duration": 34,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Races.vue should display every race name in a title",
@@ -289,52 +401,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642685874514,
-        "runtime": 1210,
+        "end": 1642689717500,
+        "runtime": 423,
         "slow": false,
-        "start": 1642685873304
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\components\\Navbar.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Navbar.vue"
-          ],
-          "duration": 26,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Navbar.vue should toggle the class on click",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should toggle the class on click"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 1,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1642685875068,
-        "runtime": 455,
-        "slow": false,
-        "start": 1642685874613
+        "start": 1642689717077
       },
       "skipped": false,
       "snapshot": {
@@ -373,10 +443,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642685875883,
-        "runtime": 708,
+        "end": 1642689718083,
+        "runtime": 514,
         "slow": false,
-        "start": 1642685875175
+        "start": 1642689717569
       },
       "skipped": false,
       "snapshot": {
@@ -394,7 +464,7 @@
           "ancestorTitles": [
             "FromNow"
           ],
-          "duration": 3,
+          "duration": 4,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "FromNow should transform a date",
@@ -556,131 +626,6 @@
         ]
       }
     },
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/App.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/App.vue",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 14,
-            "column": 0
-          },
-          "end": {
-            "line": 14,
-            "column": null
-          }
-        },
-        "1": {
-          "start": {
-            "line": 15,
-            "column": 0
-          },
-          "end": {
-            "line": 15,
-            "column": null
-          }
-        },
-        "2": {
-          "start": {
-            "line": 16,
-            "column": 0
-          },
-          "end": {
-            "line": 16,
-            "column": null
-          }
-        },
-        "3": {
-          "start": {
-            "line": 17,
-            "column": 0
-          },
-          "end": {
-            "line": 17,
-            "column": null
-          }
-        },
-        "4": {
-          "start": {
-            "line": 19,
-            "column": 14
-          },
-          "end": {
-            "line": 19,
-            "column": 18
-          }
-        },
-        "5": {
-          "start": {
-            "line": 21,
-            "column": 0
-          },
-          "end": {
-            "line": 21,
-            "column": 16
-          }
-        },
-        "6": {
-          "start": {
-            "line": 22,
-            "column": 2
-          },
-          "end": {
-            "line": 22,
-            "column": 7
-          }
-        },
-        "7": {
-          "start": {
-            "line": 23,
-            "column": 2
-          },
-          "end": {
-            "line": 23,
-            "column": 9
-          }
-        }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_1)",
-          "decl": {
-            "start": {
-              "line": 21,
-              "column": 16
-            },
-            "end": {
-              "line": 21,
-              "column": null
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 21,
-              "column": 16
-            },
-            "end": {
-              "line": 24,
-              "column": null
-            }
-          }
-        }
-      },
-      "branchMap": {},
-      "s": {
-        "0": 1,
-        "1": 1,
-        "2": 1,
-        "3": 1,
-        "4": 4,
-        "5": 4,
-        "6": 1,
-        "7": 1
-      },
-      "f": {
-        "0": 1
-      },
-      "b": {}
-    },
     "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Navbar.vue": {
       "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Navbar.vue",
       "statementMap": {
@@ -743,7 +688,7 @@
       "branchMap": {},
       "s": {
         "0": 2,
-        "1": 5,
+        "1": 6,
         "2": 1
       },
       "f": {
@@ -751,135 +696,47 @@
       },
       "b": {}
     },
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/views/Races.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/views/Races.vue",
+    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/App.vue": {
+      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/App.vue",
       "statementMap": {
         "0": {
           "start": {
-            "line": 9,
+            "line": 16,
             "column": 0
           },
           "end": {
-            "line": 9,
+            "line": 16,
             "column": null
           }
         },
         "1": {
           "start": {
-            "line": 10,
+            "line": 17,
             "column": 0
           },
           "end": {
-            "line": 10,
+            "line": 17,
             "column": null
           }
         },
         "2": {
           "start": {
-            "line": 13,
-            "column": 0
+            "line": 19,
+            "column": 14
           },
           "end": {
-            "line": 13,
-            "column": null
-          }
-        },
-        "3": {
-          "start": {
-            "line": 15,
-            "column": 6
-          },
-          "end": {
-            "line": 15,
-            "column": 11
-          }
-        },
-        "4": {
-          "start": {
-            "line": 16,
-            "column": 6
-          },
-          "end": {
-            "line": 16,
-            "column": 17
-          }
-        },
-        "5": {
-          "start": {
-            "line": 18,
-            "column": 0
-          },
-          "end": {
-            "line": 18,
-            "column": 6
-          }
-        },
-        "6": {
-          "start": {
-            "line": 18,
-            "column": 48
-          },
-          "end": {
-            "line": 18,
-            "column": 59
-          }
-        }
-      },
-      "fnMap": {},
-      "branchMap": {},
-      "s": {
-        "0": 2,
-        "1": 2,
-        "2": 2,
-        "3": 3,
-        "4": 3,
-        "5": 4,
-        "6": 3
-      },
-      "f": {},
-      "b": {}
-    },
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Race.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Race.vue",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 13,
-            "column": 0
-          },
-          "end": {
-            "line": 13,
-            "column": null
-          }
-        },
-        "1": {
-          "start": {
-            "line": 14,
-            "column": 0
-          },
-          "end": {
-            "line": 14,
-            "column": null
-          }
-        },
-        "2": {
-          "start": {
-            "line": 15,
-            "column": 0
-          },
-          "end": {
-            "line": 15,
-            "column": null
+            "line": 19,
+            "column": 18
           }
         },
         "3": {
           "start": {
             "line": 21,
-            "column": 21
+            "column": 0
           },
           "end": {
             "line": 21,
-            "column": 30
+            "column": 16
           }
         },
         "4": {
@@ -889,6 +746,16 @@
           },
           "end": {
             "line": 22,
+            "column": 7
+          }
+        },
+        "5": {
+          "start": {
+            "line": 23,
+            "column": 2
+          },
+          "end": {
+            "line": 23,
             "column": 9
           }
         }
@@ -899,7 +766,7 @@
           "decl": {
             "start": {
               "line": 21,
-              "column": 30
+              "column": 16
             },
             "end": {
               "line": 21,
@@ -909,10 +776,10 @@
           "loc": {
             "start": {
               "line": 21,
-              "column": 30
+              "column": 16
             },
             "end": {
-              "line": 23,
+              "line": 24,
               "column": null
             }
           }
@@ -920,95 +787,15 @@
       },
       "branchMap": {},
       "s": {
-        "0": 2,
-        "1": 2,
-        "2": 2,
-        "3": 2,
-        "4": 2
+        "0": 1,
+        "1": 1,
+        "2": 3,
+        "3": 3,
+        "4": 2,
+        "5": 2
       },
       "f": {
         "0": 2
-      },
-      "b": {}
-    },
-    "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\src\\utils\\FromNow.ts": {
-      "path": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\src\\utils\\FromNow.ts",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 1,
-            "column": 0
-          },
-          "end": {
-            "line": 1,
-            "column": 63
-          }
-        },
-        "1": {
-          "start": {
-            "line": 4,
-            "column": 12
-          },
-          "end": {
-            "line": 4,
-            "column": 26
-          }
-        },
-        "2": {
-          "start": {
-            "line": 5,
-            "column": 2
-          },
-          "end": {
-            "line": 5,
-            "column": 59
-          }
-        },
-        "3": {
-          "start": {
-            "line": 3,
-            "column": 0
-          },
-          "end": {
-            "line": 3,
-            "column": 24
-          }
-        }
-      },
-      "fnMap": {
-        "0": {
-          "name": "fromNow",
-          "decl": {
-            "start": {
-              "line": 3,
-              "column": 24
-            },
-            "end": {
-              "line": 3,
-              "column": 31
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 44
-            },
-            "end": {
-              "line": 6,
-              "column": 1
-            }
-          }
-        }
-      },
-      "branchMap": {},
-      "s": {
-        "0": 3,
-        "1": 3,
-        "2": 3,
-        "3": 3
-      },
-      "f": {
-        "0": 3
       },
       "b": {}
     },
@@ -1116,7 +903,7 @@
       },
       "branchMap": {},
       "s": {
-        "0": 3,
+        "0": 2,
         "1": 2,
         "2": 2,
         "3": 2,
@@ -1125,6 +912,267 @@
       "f": {
         "0": 2,
         "1": 1
+      },
+      "b": {}
+    },
+    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/views/Races.vue": {
+      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/views/Races.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 9,
+            "column": 0
+          },
+          "end": {
+            "line": 9,
+            "column": null
+          }
+        },
+        "1": {
+          "start": {
+            "line": 10,
+            "column": 0
+          },
+          "end": {
+            "line": 10,
+            "column": null
+          }
+        },
+        "2": {
+          "start": {
+            "line": 13,
+            "column": 0
+          },
+          "end": {
+            "line": 13,
+            "column": null
+          }
+        },
+        "3": {
+          "start": {
+            "line": 15,
+            "column": 6
+          },
+          "end": {
+            "line": 15,
+            "column": 11
+          }
+        },
+        "4": {
+          "start": {
+            "line": 16,
+            "column": 6
+          },
+          "end": {
+            "line": 16,
+            "column": 17
+          }
+        },
+        "5": {
+          "start": {
+            "line": 18,
+            "column": 0
+          },
+          "end": {
+            "line": 18,
+            "column": 6
+          }
+        },
+        "6": {
+          "start": {
+            "line": 18,
+            "column": 48
+          },
+          "end": {
+            "line": 18,
+            "column": 59
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1
+      },
+      "f": {},
+      "b": {}
+    },
+    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Race.vue": {
+      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Race.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 13,
+            "column": 0
+          },
+          "end": {
+            "line": 13,
+            "column": null
+          }
+        },
+        "1": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 14,
+            "column": null
+          }
+        },
+        "2": {
+          "start": {
+            "line": 15,
+            "column": 0
+          },
+          "end": {
+            "line": 15,
+            "column": null
+          }
+        },
+        "3": {
+          "start": {
+            "line": 21,
+            "column": 21
+          },
+          "end": {
+            "line": 21,
+            "column": 30
+          }
+        },
+        "4": {
+          "start": {
+            "line": 22,
+            "column": 2
+          },
+          "end": {
+            "line": 22,
+            "column": 9
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_1)",
+          "decl": {
+            "start": {
+              "line": 21,
+              "column": 30
+            },
+            "end": {
+              "line": 21,
+              "column": null
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 30
+            },
+            "end": {
+              "line": 23,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2
+      },
+      "f": {
+        "0": 2
+      },
+      "b": {}
+    },
+    "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\src\\utils\\FromNow.ts": {
+      "path": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\src\\utils\\FromNow.ts",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        },
+        "1": {
+          "start": {
+            "line": 4,
+            "column": 12
+          },
+          "end": {
+            "line": 4,
+            "column": 26
+          }
+        },
+        "2": {
+          "start": {
+            "line": 5,
+            "column": 2
+          },
+          "end": {
+            "line": 5,
+            "column": 59
+          }
+        },
+        "3": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 24
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "fromNow",
+          "decl": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 44
+            },
+            "end": {
+              "line": 6,
+              "column": 1
+            }
+          }
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 2,
+        "1": 3,
+        "2": 3,
+        "3": 2
+      },
+      "f": {
+        "0": 3
       },
       "b": {}
     },
@@ -1272,19 +1320,19 @@
       },
       "branchMap": {},
       "s": {
-        "0": 2,
-        "1": 3,
-        "2": 3,
-        "3": 3,
-        "4": 3,
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
         "5": 1,
         "6": 1,
-        "7": 3,
-        "8": 2
+        "7": 1,
+        "8": 1
       },
       "f": {
-        "0": 3,
-        "1": 3
+        "0": 1,
+        "1": 1
       },
       "b": {}
     }

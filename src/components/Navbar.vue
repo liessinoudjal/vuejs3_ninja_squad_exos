@@ -1,14 +1,14 @@
 <template>
   <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand">PonyRacer</a>
+      <router-link class="navbar-brand" :to="{ name: 'home' }">PonyRacer</router-link>
       <button type="button" class="navbar-toggler" @click="toggleNavbar()">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div id="navbar" class="navbar-collapse" :class="{ collapse: navbarCollapsed }">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link">Races</a>
+            <router-link class="nav-link" :to="{ name: 'races' }">Races</router-link>
           </li>
         </ul>
       </div>
