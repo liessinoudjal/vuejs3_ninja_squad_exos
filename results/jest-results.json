@@ -1,14 +1,14 @@
 {
-  "numFailedTestSuites": 1,
-  "numFailedTests": 1,
-  "numPassedTestSuites": 5,
-  "numPassedTests": 9,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 7,
+  "numPassedTests": 13,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 6,
-  "numTotalTests": 10,
+  "numTotalTestSuites": 7,
+  "numTotalTests": 13,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,21 +26,91 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1642673977553,
+  "startTime": 1642678567104,
   "success": false,
   "testResults": [
     {
       "leaks": false,
-      "numFailingTests": 1,
-      "numPassingTests": 1,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642673984835,
-        "runtime": 5299,
-        "slow": true,
-        "start": 1642673979536
+        "end": 1642678572816,
+        "runtime": 3891,
+        "slow": false,
+        "start": 1642678568925
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\components\\Alert.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Alert.vue"
+          ],
+          "duration": 33,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Alert.vue should display the alert content",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display the alert content"
+        },
+        {
+          "ancestorTitles": [
+            "Alert.vue"
+          ],
+          "duration": 20,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Alert.vue should have the correct CSS classes",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should have the correct CSS classes"
+        },
+        {
+          "ancestorTitles": [
+            "Alert.vue"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Alert.vue should be dismissible",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should be dismissible"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1642678574571,
+        "runtime": 1671,
+        "slow": false,
+        "start": 1642678572900
       },
       "skipped": false,
       "snapshot": {
@@ -58,7 +128,7 @@
           "ancestorTitles": [
             "Races.vue"
           ],
-          "duration": 45,
+          "duration": 23,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Races.vue should display every race name in a title",
@@ -72,32 +142,18 @@
           "ancestorTitles": [
             "Races.vue"
           ],
-          "duration": 164,
-          "failureDetails": [
-            {},
-            {
-              "matcherResult": {
-                "actual": true,
-                "expected": false,
-                "message": "expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true",
-                "name": "toBe",
-                "pass": false
-              }
-            }
-          ],
-          "failureMessages": [
-            "TypeError: Cannot read properties of null (reading 'style')\n    at Proxy.closeAlert (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\src\\views\\Races.vue:28:7)\n    at $setup.error.onClick._cache.<computed> (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\src\\views\\Races.vue:98:91)\n    at callWithErrorHandling (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\@vue\\runtime-core\\dist\\runtime-core.cjs.js:157:22)\n    at Object.callWithAsyncErrorHandling (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\@vue\\runtime-core\\dist\\runtime-core.cjs.js:166:21)\n    at HTMLButtonElement.invoker (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\@vue\\runtime-dom\\dist\\runtime-dom.cjs.js:366:25)\n    at HTMLButtonElement.callTheUserObjectsOperation (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\jsdom\\lib\\jsdom\\living\\generated\\EventListener.js:26:30)\n    at innerInvokeEventListeners (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:338:25)\n    at invokeEventListeners (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:274:3)\n    at HTMLButtonElementImpl._dispatch (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:221:9)\n    at HTMLButtonElementImpl.dispatchEvent (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:94:17)\n    at HTMLButtonElement.dispatchEvent (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\jsdom\\lib\\jsdom\\living\\generated\\EventTarget.js:231:34)\n    at DOMWrapper.<anonymous> (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:6903:34)\n    at step (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:109:23)\n    at Object.next (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:90:53)\n    at C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:83:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:79:12)\n    at DOMWrapper.Object.<anonymous>.BaseWrapper.trigger (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:6893:16)\n    at C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\views\\Races.spec.ts:44:32\n    at step (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\tslib\\tslib.js:143:27)\n    at Object.next (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\tslib\\tslib.js:124:57)\n    at fulfilled (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\tslib\\tslib.js:114:62)",
-            "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\views\\Races.spec.ts:46:48\n    at step (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\tslib\\tslib.js:143:27)\n    at Object.next (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\tslib\\tslib.js:124:57)\n    at fulfilled (C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\node_modules\\tslib\\tslib.js:114:62)"
-          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
           "fullName": "Races.vue should display a closable alert in case of error",
           "invocations": 1,
           "location": null,
           "numPassingAsserts": 0,
-          "status": "failed",
+          "status": "passed",
           "title": "should display a closable alert in case of error"
         }
       ],
-      "failureMessage": "  ● Races.vue › should display a closable alert in case of error\n\n    TypeError: Cannot read properties of null (reading 'style')\n\n      26 | onMounted(async () => {\n      27 |   try {\n    > 28 |     races.value = await raceService.list();\n         |       ^\n      29 |   } catch (e) {\n      30 |     error.value = true;\n      31 |   }\n\n      at Proxy.closeAlert (src/views/Races.vue:28:7)\n      at $setup.error.onClick._cache.<computed> (src/views/Races.vue:98:91)\n      at callWithErrorHandling (node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:157:22)\n      at Object.callWithAsyncErrorHandling (node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:166:21)\n      at HTMLButtonElement.invoker (node_modules/@vue/runtime-dom/dist/runtime-dom.cjs.js:366:25)\n      at HTMLButtonElement.callTheUserObjectsOperation (node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)\n      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)\n      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)\n      at HTMLButtonElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)\n      at HTMLButtonElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)\n      at HTMLButtonElement.dispatchEvent (node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)\n      at DOMWrapper.<anonymous> (node_modules/@vue/test-utils/dist/vue-test-utils.cjs.js:6903:34)\n      at step (node_modules/@vue/test-utils/dist/vue-test-utils.cjs.js:109:23)\n      at Object.next (node_modules/@vue/test-utils/dist/vue-test-utils.cjs.js:90:53)\n      at node_modules/@vue/test-utils/dist/vue-test-utils.cjs.js:83:71\n      at __awaiter (node_modules/@vue/test-utils/dist/vue-test-utils.cjs.js:79:12)\n      at DOMWrapper.Object.<anonymous>.BaseWrapper.trigger (node_modules/@vue/test-utils/dist/vue-test-utils.cjs.js:6893:16)\n      at tests/unit/views/Races.spec.ts:44:32\n      at step (node_modules/tslib/tslib.js:143:27)\n      at Object.next (node_modules/tslib/tslib.js:124:57)\n      at fulfilled (node_modules/tslib/tslib.js:114:62)\n\n  ● Races.vue › should display a closable alert in case of error\n\n    expect(received).toBe(expected) // Object.is equality\n\n    Expected: false\n    Received: true\n\n      44 |     await alert.find('button').trigger('click');\n      45 |     // The alert should be closed when the button is clicked\n    > 46 |     expect(wrapper.find('div.alert').exists()).toBe(false);\n         |                                                ^\n      47 |   });\n      48 | });\n      49 |\n\n      at tests/unit/views/Races.spec.ts:46:48\n      at step (node_modules/tslib/tslib.js:143:27)\n      at Object.next (node_modules/tslib/tslib.js:124:57)\n      at fulfilled (node_modules/tslib/tslib.js:114:62)\n"
+      "failureMessage": null
     },
     {
       "leaks": false,
@@ -107,10 +163,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642673985556,
-        "runtime": 618,
+        "end": 1642678575152,
+        "runtime": 508,
         "slow": false,
-        "start": 1642673984938
+        "start": 1642678574644
       },
       "skipped": false,
       "snapshot": {
@@ -142,7 +198,7 @@
           "ancestorTitles": [
             "Pony.vue"
           ],
-          "duration": 4,
+          "duration": 3,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Pony.vue should emit an event on click",
@@ -158,15 +214,85 @@
     {
       "leaks": false,
       "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1642678576161,
+        "runtime": 941,
+        "slow": false,
+        "start": 1642678575220
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\App.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "App.vue"
+          ],
+          "duration": 46,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "App.vue renders a title",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "renders a title"
+        },
+        {
+          "ancestorTitles": [
+            "App.vue"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "App.vue renders the navbar",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "renders the navbar"
+        },
+        {
+          "ancestorTitles": [
+            "App.vue"
+          ],
+          "duration": 8,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "App.vue renders the races list",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "renders the races list"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
       "numPassingTests": 1,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642673986291,
-        "runtime": 675,
+        "end": 1642678576710,
+        "runtime": 481,
         "slow": false,
-        "start": 1642673985616
+        "start": 1642678576229
       },
       "skipped": false,
       "snapshot": {
@@ -184,7 +310,7 @@
           "ancestorTitles": [
             "Navbar.vue"
           ],
-          "duration": 24,
+          "duration": 16,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Navbar.vue should toggle the class on click",
@@ -205,10 +331,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642673986769,
-        "runtime": 420,
+        "end": 1642678577032,
+        "runtime": 269,
         "slow": false,
-        "start": 1642673986349
+        "start": 1642678576763
       },
       "skipped": false,
       "snapshot": {
@@ -242,85 +368,15 @@
     {
       "leaks": false,
       "numFailingTests": 0,
-      "numPassingTests": 3,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1642673987722,
-        "runtime": 887,
-        "slow": false,
-        "start": 1642673986835
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\App.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "App.vue"
-          ],
-          "duration": 51,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "App.vue renders a title",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "renders a title"
-        },
-        {
-          "ancestorTitles": [
-            "App.vue"
-          ],
-          "duration": 9,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "App.vue renders the navbar",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "renders the navbar"
-        },
-        {
-          "ancestorTitles": [
-            "App.vue"
-          ],
-          "duration": 10,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "App.vue renders the races list",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "renders the races list"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
       "numPassingTests": 1,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642673988254,
-        "runtime": 463,
+        "end": 1642678577528,
+        "runtime": 438,
         "slow": false,
-        "start": 1642673987791
+        "start": 1642678577090
       },
       "skipped": false,
       "snapshot": {
@@ -354,173 +410,296 @@
   ],
   "wasInterrupted": false,
   "coverageMap": {
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/views/Races.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/views/Races.vue",
+    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Alert.vue": {
+      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Alert.vue",
       "statementMap": {
         "0": {
           "start": {
-            "line": 13,
+            "line": 9,
             "column": 0
           },
           "end": {
-            "line": 13,
+            "line": 9,
             "column": null
           }
         },
         "1": {
           "start": {
-            "line": 15,
+            "line": 20,
+            "column": 21
+          },
+          "end": {
+            "line": 20,
+            "column": 30
+          }
+        },
+        "2": {
+          "start": {
+            "line": 21,
+            "column": 2
+          },
+          "end": {
+            "line": 21,
+            "column": 9
+          }
+        },
+        "3": {
+          "start": {
+            "line": 25,
+            "column": 2
+          },
+          "end": {
+            "line": 25,
+            "column": 7
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_1)",
+          "decl": {
+            "start": {
+              "line": 20,
+              "column": 30
+            },
+            "end": {
+              "line": 20,
+              "column": null
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 30
+            },
+            "end": {
+              "line": 22,
+              "column": null
+            }
+          }
+        },
+        "1": {
+          "name": "dismiss",
+          "decl": {
+            "start": {
+              "line": 24,
+              "column": 9
+            },
+            "end": {
+              "line": 24,
+              "column": 16
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 16
+            },
+            "end": {
+              "line": 26,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 18
+            },
+            "end": {
+              "line": 21,
+              "column": 62
+            }
+          },
+          "type": "cond-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 21,
+                "column": 38
+              },
+              "end": {
+                "line": 21,
+                "column": 60
+              }
+            },
+            {
+              "start": {
+                "line": 21,
+                "column": 60
+              },
+              "end": {
+                "line": 21,
+                "column": 62
+              }
+            }
+          ]
+        }
+      },
+      "s": {
+        "0": 3,
+        "1": 4,
+        "2": 7,
+        "3": 2
+      },
+      "f": {
+        "0": 7,
+        "1": 2
+      },
+      "b": {
+        "0": [
+          3,
+          4
+        ]
+      }
+    },
+    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/views/Races.vue": {
+      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/views/Races.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 11,
             "column": 0
           },
           "end": {
-            "line": 15,
+            "line": 11,
+            "column": null
+          }
+        },
+        "1": {
+          "start": {
+            "line": 13,
+            "column": 0
+          },
+          "end": {
+            "line": 13,
             "column": null
           }
         },
         "2": {
           "start": {
-            "line": 16,
+            "line": 14,
             "column": 0
           },
           "end": {
-            "line": 16,
+            "line": 14,
             "column": null
           }
         },
         "3": {
           "start": {
-            "line": 18,
-            "column": 14
+            "line": 15,
+            "column": 0
           },
           "end": {
-            "line": 18,
-            "column": 43
+            "line": 15,
+            "column": null
           }
         },
         "4": {
           "start": {
-            "line": 19,
-            "column": 20
+            "line": 17,
+            "column": 14
           },
           "end": {
-            "line": 19,
-            "column": null
+            "line": 17,
+            "column": 43
           }
         },
         "5": {
           "start": {
-            "line": 20,
-            "column": 14
+            "line": 18,
+            "column": 20
           },
           "end": {
-            "line": 20,
-            "column": 18
+            "line": 18,
+            "column": null
           }
         },
         "6": {
           "start": {
-            "line": 23,
-            "column": 2
+            "line": 19,
+            "column": 14
           },
           "end": {
-            "line": 23,
-            "column": 10
+            "line": 19,
+            "column": 18
           }
         },
         "7": {
           "start": {
-            "line": 26,
+            "line": 21,
             "column": 0
           },
           "end": {
-            "line": 26,
+            "line": 21,
             "column": 10
           }
         },
         "8": {
           "start": {
-            "line": 26,
+            "line": 21,
             "column": 10
           },
           "end": {
-            "line": 26,
+            "line": 21,
             "column": null
           }
         },
         "9": {
           "start": {
-            "line": 28,
+            "line": 23,
             "column": 4
           },
           "end": {
-            "line": 28,
+            "line": 23,
             "column": 10
           }
         },
         "10": {
           "start": {
-            "line": 28,
+            "line": 23,
             "column": 18
           },
           "end": {
-            "line": 28,
+            "line": 23,
             "column": 24
           }
         },
         "11": {
           "start": {
-            "line": 30,
+            "line": 25,
             "column": 4
           },
           "end": {
-            "line": 30,
+            "line": 25,
             "column": 9
           }
         }
       },
       "fnMap": {
         "0": {
-          "name": "closeAlert",
+          "name": "(anonymous_1)",
           "decl": {
             "start": {
-              "line": 22,
-              "column": 9
-            },
-            "end": {
-              "line": 22,
-              "column": 19
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 22,
-              "column": 19
-            },
-            "end": {
-              "line": 24,
-              "column": null
-            }
-          }
-        },
-        "1": {
-          "name": "(anonymous_2)",
-          "decl": {
-            "start": {
-              "line": 26,
+              "line": 21,
               "column": 10
             },
             "end": {
-              "line": 26,
+              "line": 21,
               "column": null
             }
           },
           "loc": {
             "start": {
-              "line": 26,
+              "line": 21,
               "column": 10
             },
             "end": {
-              "line": 32,
+              "line": 27,
               "column": null
             }
           }
@@ -531,10 +710,10 @@
         "0": 2,
         "1": 2,
         "2": 2,
-        "3": 5,
+        "3": 2,
         "4": 5,
         "5": 5,
-        "6": 1,
+        "6": 5,
         "7": 5,
         "8": 5,
         "9": 7,
@@ -542,8 +721,7 @@
         "11": 1
       },
       "f": {
-        "0": 1,
-        "1": 10
+        "0": 10
       },
       "b": {}
     },
@@ -836,6 +1014,39 @@
       },
       "b": {}
     },
+    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/App.vue": {
+      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/App.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 10,
+            "column": 0
+          },
+          "end": {
+            "line": 10,
+            "column": null
+          }
+        },
+        "1": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": null
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1
+      },
+      "f": {},
+      "b": {}
+    },
     "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Navbar.vue": {
       "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Navbar.vue",
       "statementMap": {
@@ -1064,39 +1275,6 @@
         "0": 4,
         "1": 4
       },
-      "b": {}
-    },
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/App.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/App.vue",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 10,
-            "column": 0
-          },
-          "end": {
-            "line": 10,
-            "column": null
-          }
-        },
-        "1": {
-          "start": {
-            "line": 11,
-            "column": 0
-          },
-          "end": {
-            "line": 11,
-            "column": null
-          }
-        }
-      },
-      "fnMap": {},
-      "branchMap": {},
-      "s": {
-        "0": 1,
-        "1": 1
-      },
-      "f": {},
       "b": {}
     }
   }
