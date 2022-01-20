@@ -57,6 +57,8 @@ describe('Ponyracer', () => {
 
   it('should display a race list', () => {
     cy.visit('/');
+    // loading
+    cy.contains('div', 'Loading...');
     cy.wait('@getRaces');
     cy.get('h2').should('have.length', 2);
     cy.get('p').should('have.length', 2).and('contain', 'ago');
@@ -66,9 +68,12 @@ describe('Ponyracer', () => {
   it('should display a loading error', () => {
     // override the response to have an error
     cy.intercept('GET', 'api/races?status=PENDING', {
-      statusCode: 404
+      statusCode: 404,
+      delay: 500
     }).as('getRacesError');
     cy.visit('/');
+    // loading
+    cy.contains('div', 'Loading...');
     cy.wait('@getRacesError');
     cy.contains('div.alert', 'An error occurred while loading.');
   });
