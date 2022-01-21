@@ -37,4 +37,17 @@ describe('Home.vue', () => {
     // Maybe you forgot to use `<RouterLink to="/races">` or `<RouterLink :to="{ name: 'races' }">`?
     expect(link.props().to?.name || link.props().to).toContain('races');
   });
+
+  test('display a link to go the register page', () => {
+    const wrapper = homeWrapper();
+
+    const link = wrapper.findAllComponents(RouterLinkStub)[1];
+    // You should have an `a` element to display the link to the register page
+    expect(link.exists()).toBe(true);
+    // The link should have a text
+    expect(link.text()).toBe('Register');
+    // The URL of the link is not correct.
+    // Maybe you forgot to use `<RouterLink to="/register">` or `<RouterLink :to="{ name: 'register' }">`?
+    expect(link.props().to?.name || link.props().to).toContain('register');
+  });
 });
