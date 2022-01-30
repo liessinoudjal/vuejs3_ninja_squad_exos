@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 8,
-  "numPassedTests": 16,
+  "numPassedTestSuites": 10,
+  "numPassedTests": 27,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 8,
-  "numTotalTests": 16,
+  "numTotalTestSuites": 10,
+  "numTotalTests": 27,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,21 +26,21 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1642689704521,
+  "startTime": 1643582958271,
   "success": false,
   "testResults": [
     {
       "leaks": false,
       "numFailingTests": 0,
-      "numPassingTests": 3,
+      "numPassingTests": 9,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642689711258,
-        "runtime": 4538,
-        "slow": false,
-        "start": 1642689706720
+        "end": 1643582965691,
+        "runtime": 5492,
+        "slow": true,
+        "start": 1643582960199
       },
       "skipped": false,
       "snapshot": {
@@ -52,13 +52,167 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\components\\Alert.spec.ts",
+      "testFilePath": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\tests\\unit\\views\\Register.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 32,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Register.vue should have a userModel property",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should have a userModel property"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Register.vue should have an errors computed property",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should have an errors computed property"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Register.vue should display a form",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display a form"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 12,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Register.vue should update the dirtiness of a field",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should update the dirtiness of a field"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 17,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Register.vue should display errors for login",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display errors for login"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Register.vue should display errors for password",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display errors for password"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 22,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Register.vue should display errors for birthYear",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display errors for birthYear"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Register.vue should call the register function on submit",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should call the register function on submit"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 26,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Register.vue should display an alert on submission failure",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display an alert on submission failure"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1643582967267,
+        "runtime": 1412,
+        "slow": false,
+        "start": 1643582965855
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\tests\\unit\\components\\Alert.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 43,
+          "duration": 52,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Alert.vue should display the alert content",
@@ -72,7 +226,7 @@
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 20,
+          "duration": 16,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Alert.vue should have the correct CSS classes",
@@ -107,10 +261,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642689712323,
-        "runtime": 966,
+        "end": 1643582968325,
+        "runtime": 935,
         "slow": false,
-        "start": 1642689711357
+        "start": 1643582967390
       },
       "skipped": false,
       "snapshot": {
@@ -122,13 +276,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\components\\Navbar.spec.ts",
+      "testFilePath": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\tests\\unit\\components\\Navbar.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
             "Navbar.vue"
           ],
-          "duration": 21,
+          "duration": 27,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Navbar.vue should toggle the class on click",
@@ -156,7 +310,7 @@
           "ancestorTitles": [
             "Navbar.vue"
           ],
-          "duration": 7,
+          "duration": 5,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Navbar.vue should display a link to the races page",
@@ -177,10 +331,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642689713887,
-        "runtime": 1466,
+        "end": 1643582969381,
+        "runtime": 955,
         "slow": false,
-        "start": 1642689712421
+        "start": 1643582968426
       },
       "skipped": false,
       "snapshot": {
@@ -192,13 +346,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\App.spec.ts",
+      "testFilePath": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\tests\\unit\\App.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 22,
+          "duration": 26,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "App.vue renders the navbar",
@@ -212,7 +366,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 40,
+          "duration": 44,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "App.vue renders the router view inside a Suspense component",
@@ -226,7 +380,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 14,
+          "duration": 15,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "App.vue renders an error if router view does not load",
@@ -242,15 +396,15 @@
     {
       "leaks": false,
       "numFailingTests": 0,
-      "numPassingTests": 2,
+      "numPassingTests": 3,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642689714747,
-        "runtime": 753,
+        "end": 1643582970256,
+        "runtime": 718,
         "slow": false,
-        "start": 1642689713994
+        "start": 1643582969538
       },
       "skipped": false,
       "snapshot": {
@@ -262,69 +416,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\components\\Pony.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Pony.vue"
-          ],
-          "duration": 13,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Pony.vue should display an image and a legend",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should display an image and a legend"
-        },
-        {
-          "ancestorTitles": [
-            "Pony.vue"
-          ],
-          "duration": 4,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Pony.vue should emit an event on click",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should emit an event on click"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 2,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1642689715503,
-        "runtime": 680,
-        "slow": false,
-        "start": 1642689714823
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\views\\Home.spec.ts",
+      "testFilePath": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\tests\\unit\\views\\Home.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
             "Home.vue"
           ],
-          "duration": 14,
+          "duration": 18,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Home.vue should display every race name in a title",
@@ -347,6 +445,76 @@
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "display a link to go the races"
+        },
+        {
+          "ancestorTitles": [
+            "Home.vue"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Home.vue display a link to go the register page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "display a link to go the register page"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1643582971055,
+        "runtime": 690,
+        "slow": false,
+        "start": 1643582970365
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\tests\\unit\\components\\Pony.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Pony.vue"
+          ],
+          "duration": 20,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pony.vue should display an image and a legend",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display an image and a legend"
+        },
+        {
+          "ancestorTitles": [
+            "Pony.vue"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pony.vue should emit an event on click",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should emit an event on click"
         }
       ],
       "failureMessage": null
@@ -359,10 +527,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642689716995,
-        "runtime": 1430,
+        "end": 1643582972799,
+        "runtime": 1649,
         "slow": false,
-        "start": 1642689715565
+        "start": 1643582971150
       },
       "skipped": false,
       "snapshot": {
@@ -374,13 +542,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\views\\Races.spec.ts",
+      "testFilePath": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\tests\\unit\\views\\Races.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
             "Races.vue"
           ],
-          "duration": 34,
+          "duration": 33,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Races.vue should display every race name in a title",
@@ -401,10 +569,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642689717500,
-        "runtime": 423,
+        "end": 1643582973341,
+        "runtime": 429,
         "slow": false,
-        "start": 1642689717077
+        "start": 1643582972912
       },
       "skipped": false,
       "snapshot": {
@@ -416,13 +584,55 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\composables\\RaceService.spec.ts",
+      "testFilePath": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\tests\\unit\\composables\\UserService.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "useUserService"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "useUserService should register a user",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should register a user"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1643582973894,
+        "runtime": 437,
+        "slow": false,
+        "start": 1643582973457
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\tests\\unit\\composables\\RaceService.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
             "useRaceService"
           ],
-          "duration": 3,
+          "duration": 4,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "useRaceService should list races",
@@ -443,10 +653,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1642689718083,
-        "runtime": 514,
+        "end": 1643582974602,
+        "runtime": 589,
         "slow": false,
-        "start": 1642689717569
+        "start": 1643582974013
       },
       "skipped": false,
       "snapshot": {
@@ -458,13 +668,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\tests\\unit\\utils\\FromNow.spec.ts",
+      "testFilePath": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\tests\\unit\\utils\\FromNow.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
             "FromNow"
           ],
-          "duration": 4,
+          "duration": 3,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "FromNow should transform a date",
@@ -480,8 +690,375 @@
   ],
   "wasInterrupted": false,
   "coverageMap": {
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Alert.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Alert.vue",
+    "D:/laragon/www/vuejs3_ninja_squad_exos/src/views/Register.vue": {
+      "path": "D:/laragon/www/vuejs3_ninja_squad_exos/src/views/Register.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 51,
+            "column": 0
+          },
+          "end": {
+            "line": 51,
+            "column": null
+          }
+        },
+        "1": {
+          "start": {
+            "line": 53,
+            "column": 0
+          },
+          "end": {
+            "line": 53,
+            "column": null
+          }
+        },
+        "2": {
+          "start": {
+            "line": 54,
+            "column": 0
+          },
+          "end": {
+            "line": 54,
+            "column": null
+          }
+        },
+        "3": {
+          "start": {
+            "line": 56,
+            "column": 18
+          },
+          "end": {
+            "line": 56,
+            "column": 38
+          }
+        },
+        "4": {
+          "start": {
+            "line": 61,
+            "column": 27
+          },
+          "end": {
+            "line": 61,
+            "column": 31
+          }
+        },
+        "5": {
+          "start": {
+            "line": 62,
+            "column": 15
+          },
+          "end": {
+            "line": 62,
+            "column": null
+          }
+        },
+        "6": {
+          "start": {
+            "line": 63,
+            "column": 20
+          },
+          "end": {
+            "line": 63,
+            "column": null
+          }
+        },
+        "7": {
+          "start": {
+            "line": 66,
+            "column": 4
+          },
+          "end": {
+            "line": 66,
+            "column": 10
+          }
+        },
+        "8": {
+          "start": {
+            "line": 67,
+            "column": 4
+          },
+          "end": {
+            "line": 67,
+            "column": 10
+          }
+        },
+        "9": {
+          "start": {
+            "line": 69,
+            "column": 4
+          },
+          "end": {
+            "line": 69,
+            "column": 22
+          }
+        },
+        "10": {
+          "start": {
+            "line": 72,
+            "column": 15
+          },
+          "end": {
+            "line": 72,
+            "column": 24
+          }
+        },
+        "11": {
+          "start": {
+            "line": 73,
+            "column": 60
+          },
+          "end": {
+            "line": 73,
+            "column": null
+          }
+        },
+        "12": {
+          "start": {
+            "line": 75,
+            "column": 2
+          },
+          "end": {
+            "line": 77,
+            "column": null
+          }
+        },
+        "13": {
+          "start": {
+            "line": 76,
+            "column": 4
+          },
+          "end": {
+            "line": 76,
+            "column": 10
+          }
+        },
+        "14": {
+          "start": {
+            "line": 78,
+            "column": 2
+          },
+          "end": {
+            "line": 80,
+            "column": null
+          }
+        },
+        "15": {
+          "start": {
+            "line": 79,
+            "column": 4
+          },
+          "end": {
+            "line": 79,
+            "column": 10
+          }
+        },
+        "16": {
+          "start": {
+            "line": 81,
+            "column": 2
+          },
+          "end": {
+            "line": 83,
+            "column": null
+          }
+        },
+        "17": {
+          "start": {
+            "line": 82,
+            "column": 4
+          },
+          "end": {
+            "line": 82,
+            "column": 10
+          }
+        },
+        "18": {
+          "start": {
+            "line": 84,
+            "column": 2
+          },
+          "end": {
+            "line": 84,
+            "column": 9
+          }
+        },
+        "19": {
+          "start": {
+            "line": 87,
+            "column": 14
+          },
+          "end": {
+            "line": 87,
+            "column": 60
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "register",
+          "decl": {
+            "start": {
+              "line": 64,
+              "column": 15
+            },
+            "end": {
+              "line": 64,
+              "column": 23
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 64,
+              "column": 23
+            },
+            "end": {
+              "line": 71,
+              "column": null
+            }
+          }
+        },
+        "1": {
+          "name": "(anonymous_4)",
+          "decl": {
+            "start": {
+              "line": 72,
+              "column": 24
+            },
+            "end": {
+              "line": 72,
+              "column": null
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 72,
+              "column": 24
+            },
+            "end": {
+              "line": 85,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 75,
+              "column": 2
+            },
+            "end": {
+              "line": 77,
+              "column": null
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 75,
+                "column": 2
+              },
+              "end": {
+                "line": 77,
+                "column": null
+              }
+            }
+          ]
+        },
+        "1": {
+          "loc": {
+            "start": {
+              "line": 78,
+              "column": 2
+            },
+            "end": {
+              "line": 80,
+              "column": null
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 78,
+                "column": 2
+              },
+              "end": {
+                "line": 80,
+                "column": null
+              }
+            }
+          ]
+        },
+        "2": {
+          "loc": {
+            "start": {
+              "line": 81,
+              "column": 2
+            },
+            "end": {
+              "line": 83,
+              "column": null
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 81,
+                "column": 2
+              },
+              "end": {
+                "line": 83,
+                "column": null
+              }
+            }
+          ]
+        }
+      },
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9,
+        "7": 4,
+        "8": 1,
+        "9": 1,
+        "10": 9,
+        "11": 20,
+        "12": 20,
+        "13": 17,
+        "14": 20,
+        "15": 17,
+        "16": 20,
+        "17": 2,
+        "18": 20,
+        "19": 9
+      },
+      "f": {
+        "0": 2,
+        "1": 20
+      },
+      "b": {
+        "0": [
+          17
+        ],
+        "1": [
+          17
+        ],
+        "2": [
+          2
+        ]
+      }
+    },
+    "D:/laragon/www/vuejs3_ninja_squad_exos/src/components/Alert.vue": {
+      "path": "D:/laragon/www/vuejs3_ninja_squad_exos/src/components/Alert.vue",
       "statementMap": {
         "0": {
           "start": {
@@ -610,24 +1187,24 @@
         }
       },
       "s": {
-        "0": 2,
-        "1": 3,
-        "2": 6,
-        "3": 1
+        "0": 3,
+        "1": 4,
+        "2": 7,
+        "3": 2
       },
       "f": {
-        "0": 6,
-        "1": 1
+        "0": 7,
+        "1": 2
       },
       "b": {
         "0": [
-          2,
+          3,
           4
         ]
       }
     },
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Navbar.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Navbar.vue",
+    "D:/laragon/www/vuejs3_ninja_squad_exos/src/components/Navbar.vue": {
+      "path": "D:/laragon/www/vuejs3_ninja_squad_exos/src/components/Navbar.vue",
       "statementMap": {
         "0": {
           "start": {
@@ -696,8 +1273,8 @@
       },
       "b": {}
     },
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/App.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/App.vue",
+    "D:/laragon/www/vuejs3_ninja_squad_exos/src/App.vue": {
+      "path": "D:/laragon/www/vuejs3_ninja_squad_exos/src/App.vue",
       "statementMap": {
         "0": {
           "start": {
@@ -799,8 +1376,8 @@
       },
       "b": {}
     },
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Pony.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Pony.vue",
+    "D:/laragon/www/vuejs3_ninja_squad_exos/src/components/Pony.vue": {
+      "path": "D:/laragon/www/vuejs3_ninja_squad_exos/src/components/Pony.vue",
       "statementMap": {
         "0": {
           "start": {
@@ -915,8 +1492,8 @@
       },
       "b": {}
     },
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/views/Races.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/views/Races.vue",
+    "D:/laragon/www/vuejs3_ninja_squad_exos/src/views/Races.vue": {
+      "path": "D:/laragon/www/vuejs3_ninja_squad_exos/src/views/Races.vue",
       "statementMap": {
         "0": {
           "start": {
@@ -1003,8 +1580,8 @@
       "f": {},
       "b": {}
     },
-    "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Race.vue": {
-      "path": "C:/Users/liess.inoudjal/ninja_vuejs3/ponyracer/src/components/Race.vue",
+    "D:/laragon/www/vuejs3_ninja_squad_exos/src/components/Race.vue": {
+      "path": "D:/laragon/www/vuejs3_ninja_squad_exos/src/components/Race.vue",
       "statementMap": {
         "0": {
           "start": {
@@ -1095,8 +1672,8 @@
       },
       "b": {}
     },
-    "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\src\\utils\\FromNow.ts": {
-      "path": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\src\\utils\\FromNow.ts",
+    "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\src\\utils\\FromNow.ts": {
+      "path": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\src\\utils\\FromNow.ts",
       "statementMap": {
         "0": {
           "start": {
@@ -1176,8 +1753,157 @@
       },
       "b": {}
     },
-    "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\src\\composables\\RaceService.ts": {
-      "path": "C:\\Users\\liess.inoudjal\\ninja_vuejs3\\ponyracer\\src\\composables\\RaceService.ts",
+    "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\src\\composables\\UserService.ts": {
+      "path": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\src\\composables\\UserService.ts",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 26
+          }
+        },
+        "1": {
+          "start": {
+            "line": 6,
+            "column": 17
+          },
+          "end": {
+            "line": 6,
+            "column": 52
+          }
+        },
+        "2": {
+          "start": {
+            "line": 9,
+            "column": 10
+          },
+          "end": {
+            "line": 9,
+            "column": 43
+          }
+        },
+        "3": {
+          "start": {
+            "line": 11,
+            "column": 21
+          },
+          "end": {
+            "line": 11,
+            "column": null
+          }
+        },
+        "4": {
+          "start": {
+            "line": 11,
+            "column": 10
+          },
+          "end": {
+            "line": 11,
+            "column": null
+          }
+        },
+        "5": {
+          "start": {
+            "line": 12,
+            "column": 4
+          },
+          "end": {
+            "line": 12,
+            "column": 25
+          }
+        },
+        "6": {
+          "start": {
+            "line": 15,
+            "column": 2
+          },
+          "end": {
+            "line": 17,
+            "column": 4
+          }
+        },
+        "7": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 16
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "useUserService",
+          "decl": {
+            "start": {
+              "line": 5,
+              "column": 16
+            },
+            "end": {
+              "line": 5,
+              "column": 30
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 30
+            },
+            "end": {
+              "line": 18,
+              "column": 1
+            }
+          }
+        },
+        "1": {
+          "name": "register",
+          "decl": {
+            "start": {
+              "line": 8,
+              "column": 17
+            },
+            "end": {
+              "line": 8,
+              "column": 25
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 46
+            },
+            "end": {
+              "line": 13,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1
+      },
+      "f": {
+        "0": 1,
+        "1": 1
+      },
+      "b": {}
+    },
+    "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\src\\composables\\RaceService.ts": {
+      "path": "D:\\laragon\\www\\vuejs3_ninja_squad_exos\\src\\composables\\RaceService.ts",
       "statementMap": {
         "0": {
           "start": {

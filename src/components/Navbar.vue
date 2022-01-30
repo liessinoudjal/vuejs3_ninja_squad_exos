@@ -9,7 +9,6 @@
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
             <router-link class="nav-link" :to="{ name: 'races' }">Races</router-link>
-            <router-link class="nav-link" :to="{ name: 'register' }">Register</router-link>
           </li>
         </ul>
       </div>
